@@ -1,1 +1,1 @@
-# StyleSeg_V2
+# StyleSegV2
