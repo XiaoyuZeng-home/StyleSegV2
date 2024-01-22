@@ -25,7 +25,7 @@ parser.add_argument('--batch', type=int, default=1,
 
 
 ####numbers of iteration of reg-seg 
-parser.add_argument('--iter_num', type=int, default=4, help='Number of iterations')
+parser.add_argument('--iter_num', type=int, default=3, help='Number of iterations')
 parser.add_argument('--model_dir', default='./weights')
 parser.add_argument('--reg_round', type=int, default=2000, help='Number of batches per reg_epoch')
 parser.add_argument('--seg_round', type=int, default=1000,help='Number of batches per seg_epoch')
